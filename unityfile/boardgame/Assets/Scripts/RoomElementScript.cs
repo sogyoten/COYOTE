@@ -13,18 +13,6 @@ public class RoomElementScript : MonoBehaviour
 
     private string roomname;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetRoomInfo(string _RoomName) {
         roomname = _RoomName;
         RoomName.text = "Room:" + _RoomName;
